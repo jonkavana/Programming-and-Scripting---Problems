@@ -1,16 +1,16 @@
 # John Kavanagh
-# we need to create a program where the input of a positive integer is required
+# Input required is a positive integer
 # integer is considered to be a whole number.
-# if the value is even, dividie it by 2
-# if it is odd, then multiply it by 3 and then add 1
+# Even numbers will be divided by 2
+# Odd numbers are trebled and one is added to the result
 # program ends when value is 1.
 
-a = input("Type in a positive integer: ")
-b= 2
+a = int(input("Type in a positive integer: "))
+b = 2
 
-while a != 1:
-    if a % b == 0:
-        print (a)
-        print (a/2)
+while a > 1:
+    if a % b != 0:
+        a = ((a*3)+1)
     else:
-        print(a*3 + 1)
+        a = (a/2)
+    print(a)
