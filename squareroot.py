@@ -1,3 +1,12 @@
 # John Kavanagh
-#we need to develop a program of input 14.5
-# and find its square root, circa 3.8
+# need to create a function called sqrt, that finds the square root of any positive number
+
+#def sqrt(x):
+#    return x ** (1/2)
+
+x = (float(input("Type in any positive number: ")))
+
+def sqrt(x):
+    return x ** (1/2)
+
+print("The square root of", x, "is approximately", sqrt(x))
