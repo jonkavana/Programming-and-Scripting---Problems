@@ -1,9 +1,7 @@
 # John Kavanagh
-# The quick brown fox jumps over the lazy dog
 # we need to reverse the order of the sentence, but only include the second letter
+# Implement the indeixing and slicing principle
 
-str = (input("Type in any sentence you so choose:"))
-stringlength = len(str)
+L = (input("Type in any sentence you so choose:"))
 
-slicedstring = str[::-2]
-print(slicedstring)
+print(L[::-2])
