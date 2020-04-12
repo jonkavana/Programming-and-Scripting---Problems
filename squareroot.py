@@ -4,8 +4,8 @@
 x = (int(float(input("Type in any positive number: "))))
 
 def sqrt(x):
+    if x < 0:
+        raise ValueError("Input needs to be a postive number.")
     return round(x ** (1/2), 1)
-
-# I'd like to prodce an error message if a positive integer isn't entered
 
 print("The square root of", x, "is approximately", sqrt(x))
