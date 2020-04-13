@@ -9,6 +9,6 @@ dayno=datetime.datetime.today().weekday()
 print("Today is", L[dayno])
 
 if dayno < 4:
-    print("Hauld your horeses")
+    print("It's not the weekend yet, but soon it will be.")
 else:
-    print("You've made it ,now reward yourself.")
+    print("You've made it, now reward yourself.")
