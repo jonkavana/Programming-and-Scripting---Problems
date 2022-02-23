@@ -1,4 +1,4 @@
-# Programming-and-Scripting---Problems
+# Programming and Scripting Problems
 
 In this repository, we re are aimimg to develop on our foundational level of Python. 
 With this repository, I am aiming to complete a full list of taks that will become incrementally more difficult over time, whilst inclusing past learnings taken forward.
